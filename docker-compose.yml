@@ -5,19 +5,19 @@ services:
     image: ${DOCKER_REGISTRY-}recipebookapi
     build:
       context: .
-      dockerfile: RecipeBook.Api/Dockerfile
+      dockerfile: src/RecipeBook.Api/Dockerfile
     ports:
       - 5086:80
       - 7230:443
-    depends_on:
-      - sqlserver
-  sqlserver:
-    image: 'mcr.microsoft.com/mssql/server'
-    ports:
-        - '1433:1433'
-    environment:
-        - ACCEPT_EULA=Y
-        - SA_PASSWORD=Secret1234
-    volumes:
-        - './drive:/var/opt/mssql'
+  #  depends_on:
+  #    - sqlserver
+  #sqlserver:
+  #  image: 'mcr.microsoft.com/mssql/server'
+  #  ports:
+  #      - '1433:1433'
+  #  environment:
+  #      - ACCEPT_EULA=Y
+  #      - SA_PASSWORD=Secret1234
+  #  volumes:
+  #      - './drive:/var/opt/mssql'
     
