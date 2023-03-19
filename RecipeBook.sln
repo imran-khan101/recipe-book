@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.Api", "RecipeBook.Api\RecipeBook.Api.csproj", "{5517626C-E6F6-4005-8983-358A75E16BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.Api", "RecipeBook.Api\RecipeBook.Api.csproj", "{5517626C-E6F6-4005-8983-358A75E16BC7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1E0D8B59-F0BF-4AE2-A44B-0F84F2011291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.ServiceLibrary", "RecipeBook.ServiceLibrary\RecipeBook.ServiceLibrary.csproj", "{056EA9A8-13E7-4390-B43D-153DF2B353ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5517626C-E6F6-4005-8983-358A75E16BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5517626C-E6F6-4005-8983-358A75E16BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5517626C-E6F6-4005-8983-358A75E16BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0D8B59-F0BF-4AE2-A44B-0F84F2011291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0D8B59-F0BF-4AE2-A44B-0F84F2011291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0D8B59-F0BF-4AE2-A44B-0F84F2011291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0D8B59-F0BF-4AE2-A44B-0F84F2011291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056EA9A8-13E7-4390-B43D-153DF2B353ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056EA9A8-13E7-4390-B43D-153DF2B353ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056EA9A8-13E7-4390-B43D-153DF2B353ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056EA9A8-13E7-4390-B43D-153DF2B353ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

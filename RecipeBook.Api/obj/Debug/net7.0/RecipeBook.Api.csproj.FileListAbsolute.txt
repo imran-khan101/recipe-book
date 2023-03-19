@@ -31,3 +31,5 @@ D:\imran\Asp.net\RecipeBook\RecipeBook.Api\obj\Debug\net7.0\refint\RecipeBook.Ap
 D:\imran\Asp.net\RecipeBook\RecipeBook.Api\obj\Debug\net7.0\RecipeBook.Api.pdb
 D:\imran\Asp.net\RecipeBook\RecipeBook.Api\obj\Debug\net7.0\RecipeBook.Api.genruntimeconfig.cache
 D:\imran\Asp.net\RecipeBook\RecipeBook.Api\obj\Debug\net7.0\ref\RecipeBook.Api.dll
+D:\imran\Asp.net\RecipeBook\RecipeBook.Api\bin\Debug\net7.0\RecipeBook.ServiceLibrary.dll
+D:\imran\Asp.net\RecipeBook\RecipeBook.Api\bin\Debug\net7.0\RecipeBook.ServiceLibrary.pdb
