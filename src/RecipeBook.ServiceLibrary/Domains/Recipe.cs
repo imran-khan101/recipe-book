@@ -10,10 +10,12 @@ namespace RecipeBook.ServiceLibrary.Domains
 {
     public class Recipe
     {
-        public void SaveRecipe(RecipeEntity recipeEntity)
+        public async Task<int> SaveRecipeAsync(RecipeEntity recipeEntity)
         {
-            var recipeRepository = new RecipeRepository();
-            recipeRepository.SaveRecipeToDatabase(recipeEntity);
+            var ingredientRepository = new IngredientRepository();
+            var instructionRepository = new InstructionRepository();
+            var recipeRepository = new RecipeRepository(ingredientRepository, instructionRepository);
+            return await recipeRepository.InsertAsync(recipeEntity);
         }
     }
 }

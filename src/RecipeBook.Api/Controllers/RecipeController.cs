@@ -26,7 +26,10 @@ namespace RecipeBook.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Save([FromBody] RecipeEntity recipeEntity)
         {
-            return Ok(recipeEntity);
+            var recipe = new Recipe();
+            var rowsAffected = await recipe.SaveRecipeAsync(recipeEntity);
+
+            return rowsAffected > 0 ? Ok("Succesful") : BadRequest("Failed");
         }
 
         [HttpPut]

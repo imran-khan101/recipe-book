@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.ServiceLibrary",
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipeBook.Main", "src\RecipeBook.Main\RecipeBook.Main.sqlproj", "{6160FCB0-566B-40CD-8EB0-241930C5F6A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.ServiceLibrary.Test", "tests\RecipeBook.ServiceLibrary.Test\RecipeBook.ServiceLibrary.Test\RecipeBook.ServiceLibrary.Test.csproj", "{BB9EF8F7-2FB2-4BC2-8931-836247F9F490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{6160FCB0-566B-40CD-8EB0-241930C5F6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6160FCB0-566B-40CD-8EB0-241930C5F6A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6160FCB0-566B-40CD-8EB0-241930C5F6A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BB9EF8F7-2FB2-4BC2-8931-836247F9F490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9EF8F7-2FB2-4BC2-8931-836247F9F490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9EF8F7-2FB2-4BC2-8931-836247F9F490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9EF8F7-2FB2-4BC2-8931-836247F9F490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{CA72DB1E-D9C7-4DEC-A7E0-3B7E1B25D7C1} = {6E75D043-D053-4537-8231-7241F53FCFC7}
 		{490FC2A7-CC6D-452E-ADF3-6B1CD48D012A} = {6E75D043-D053-4537-8231-7241F53FCFC7}
 		{6160FCB0-566B-40CD-8EB0-241930C5F6A8} = {6E75D043-D053-4537-8231-7241F53FCFC7}
+		{BB9EF8F7-2FB2-4BC2-8931-836247F9F490} = {9EF3FAE5-7DC2-40B7-B2DD-B5BCB4A54807}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E5DD3B-7703-48A8-90ED-FEB73F6FC173}
